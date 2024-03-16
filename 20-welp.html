@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welp!</title>
+</head>
+<body>
+    <form action="">
+        <label>Nickname: <input type="text" required></label>
+        <br><br>
+        <label>What are you reviewing? <input type="text" required></label>
+        <br><br>
+        <label for="options">Would you try/visit it again?</label>
+        <br>
+        <input type="radio" name="options" id="options"> Yes
+        <input type="radio" name="options" id="options"> No
+        <input type="radio" name="options" id="options"> Maybe
+        <br><br>
+        <label for="rate">Rating:</label>
+        <br>
+        <input type="radio" name="rate" id="rate" required> 5/5
+        <input type="radio" name="rate" id="rate"> 4/5
+        <input type="radio" name="rate" id="rate"> 3/5
+        <input type="radio" name="rate" id="rate"> 2/5
+        <input type="radio" name="rate" id="rate"> 1/5
+        <br><br>
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10" maxlength="250">
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit Review">
+    </form>
+</body>
+</html>
